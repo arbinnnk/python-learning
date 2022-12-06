@@ -68,5 +68,6 @@ else:
     print('Invalid')
 '''
 
-n = int(input('Enter any to see next value'))
-print(n+1)
+n = input('Press Enter to see next')
+if n>0 and n<7:
+    print(n)
